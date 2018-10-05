@@ -1,2 +1,119 @@
+%% LaTeX template for BSc Computing for Games final year project dissertations
+%% by Edward Powley
+%% Games Academy, Falmouth University, UK
 
-test
+%% Based on:
+%% bare_jrnl.tex
+%% V1.4b
+%% 2015/08/26
+%% by Michael Shell
+%% see http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.8b or later) with an IEEE
+%% journal paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/pkg/ieeetran
+%% and
+%% http://www.ieee.org/
+
+%%*************************************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE! 
+%% User assumes all risk.
+%% In no event shall the IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%*************************************************************************
+
+
+\documentclass[journal]{IEEEtran}
+
+\usepackage{graphicx}
+% Insert additional usepackage commands here
+
+\begin{document}
+%
+% paper title
+% Titles are generally capitalized except for words such as a, an, and, as,
+% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
+% not capitalized unless they are the first or last word of the title.
+% Linebreaks \\ can be used within to get better formatting as desired.
+% Do not put math or special symbols in the title.
+\title{What's an acceptable standard (or should be) for captions in video games built to aid players who are deaf or hearing impaired?}
+%
+%
+% author name
+\author{Michail Karakasis}
+
+% The paper headers -- please do not change these, but uncomment one of them as appropriate
+% Uncomment this one for COMP320
+\markboth{COMP320: Research Review and Proposal}{COMP320: Research Review and Proposal}
+% Uncomment this one for COMP360
+% \markboth{COMP360: Dissertation}{COMP360: Dissertation}
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}
+There have been several implementations of features in games that aim to help hearing-impaired players, such as subtitles and visualisers, but how many of them extend beyond their functions? Globally, as the number of players increase, more elaborate accessibility options will be required to cater to as many as possible. This paper will look at the extensive use of captions in video games, the current guidelines that exist within, and the experiments that will be conducted for the purpose of this research. 
+\end{abstract}
+
+\section{Introduction}
+% The very first letter is a 2 line initial drop letter followed
+% by the rest of the first word in caps.
+% 
+% form to use if the first word consists of a single letter:
+% \IEEEPARstart{A}{demo} file is ....
+% 
+% form to use if you need the single drop letter followed by
+% normal text (unknown if ever used by the IEEE):
+% \IEEEPARstart{A}{}demo file is ....
+% 
+% Some journals put the first two words in caps:
+% \IEEEPARstart{T}{his demo} file is ....
+% 
+% Here we have the typical use of a "T" for an initial drop letter
+% and "HIS" in caps to complete the first word.
+\IEEEPARstart{F}{undamentally,} video games are created as a means to immerse and allow players to dwell in critical thinking whether subconsciously or not. Before their massive growth, video games provided entry-level entertainment with countless limitations, however in recent years have blossomed into an extensive level of detail and intricacies within their environments, mechanics, and storytelling among many others. In addition, games have also been used as potential tools for teaching \cite{Toth2015} and health \cite{Whitehead2010}. Conversely, amidst the growth, there is a group who have been treated as a slight afterthought: people with health impairments that affect their visual, auditory, motor or cognitive functions. This paper in particular will focus on the issues that arise within hearing impaired players. Using the information gathered from papers on captions and their significance will provide further understanding of the level of detail that is required to produce an acceptable standard in games for hearing impaired players. As part of this research project, a short soundless game will be developed to emulate the same experience hearing impaired players go through. The game will have different caption presets (colour, size, etc.), including ones that are akin to what recent mainstream games use which will be chosen for the participants in advance. They will then be asked to rate the presets based on preference which will be analysed and compared to current caption utilisation in mainstream games. 
+
+\section{Research Question}
+While there has been a sufficient amount of literature and guidelines in place that focus on accessibility in games, there has been little progress in the video game industry as a whole in extending these and utilising them to the fullest \cite{Hopson2006}. As a result, this paper will aim to answer "What's an acceptable standard (or should be) for captions in video games built to aid players who are deaf or hearing impaired?".
+
+
+\section{Conclusion}
+The conclusion goes here.
+
+% references section
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+% Appendices
+
+\appendices
+\section{First appendix}
+Appendices are optional. Delete or comment out this part if you do not need them.
+
+% that's all folks
+\end{document}
